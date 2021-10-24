@@ -2,7 +2,8 @@
 This is the repo for FP for A2 in Semester 2, 2021
 <br/>
 Pengcheng Lin s3664976
-
+video：
+https://web.microsoftstream.com/video/bbde87ad-8ae4-4fe1-b83f-9decc660659d
 ## make sure： ##
 Make sure you have mysql workbench installed
 <br/>
