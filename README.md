@@ -56,3 +56,21 @@ Where to store fxml or other data
 
 ## src/test/java/SmartBord/model/ ##
 Where to test the file
+
+
+## report ##
+1. How did you apply MVC design pattern to build this application?
+I implemented this mvc by creating different packages:
+<br/>
+The Model：
+The model defines the data that the application should contain. If the state of these data changes, the model usually notifies the view (so the display can be changed as needed) and sometimes the controller (if different logic is needed to control the updated view).
+<br/>
+The View：
+The view defines how the app's data should be displayed
+<br/>
+The Controller<br/>
+The controller contains logic that updates the model and/or view in response to input from the users of the app.
+<br/>
+How does your code adhere to SOLID design principles?<br/>
+A class should only do one thing, and a class should only have one reason for change. For example, the user class only cares about the information that the user should have.
+
