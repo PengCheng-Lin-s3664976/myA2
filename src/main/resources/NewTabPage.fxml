@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.layout.HBox?>
+
+<fx:root fx:id="newTab" text="Untitled Tab" type="Tab" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <ScrollPane fx:id="scroll" prefHeight="346.0" prefWidth="800.0">
+         <content>
+            <HBox fx:id="hbox" prefHeight="300.0" prefWidth="300.0" />
+         </content>
+      </ScrollPane>
+   </content>
+</fx:root>

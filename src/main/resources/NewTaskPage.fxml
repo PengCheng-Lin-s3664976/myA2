@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="534.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SmartBord.controller.NewTaskController">
+   <children>
+      <TextField fx:id="taskName" layoutX="24.0" layoutY="51.0" prefHeight="23.0" prefWidth="489.0" />
+      <Label layoutX="27.0" layoutY="25.0" prefHeight="23.0" prefWidth="62.0" text="Task" />
+      <Button layoutX="27.0" layoutY="91.0" mnemonicParsing="false" text="Button" />
+      <TextArea fx:id="description" layoutX="21.0" layoutY="130.0" prefHeight="111.0" prefWidth="489.0" />
+      <Button fx:id="taskOK" layoutX="362.0" layoutY="355.0" mnemonicParsing="false" onAction="#addNewTask" prefHeight="31.0" prefWidth="62.0" text="OK" />
+      <Button fx:id="taskCancel" layoutX="437.0" layoutY="355.0" mnemonicParsing="false" onAction="#taskCancelOnAction" prefHeight="31.0" prefWidth="62.0" text="Cancel" />
+      <Label layoutX="24.0" layoutY="296.0" prefHeight="23.0" prefWidth="62.0" text="checkList" />
+      <Label fx:id="taskMessage" layoutX="94.0" layoutY="28.0" prefHeight="16.0" prefWidth="364.0" />
+   </children>
+</AnchorPane>
