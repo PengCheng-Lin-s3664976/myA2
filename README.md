@@ -8,13 +8,14 @@ Make sure you have mysql workbench installed
 src/main/java/SmartBord/model/dao/DatabaseConnection.java ：
 Please make sure there is a "jdbctest" database in the database
 Change the username and password in the code to make sure they belong to your current computer.
-public class DatabaseConnection {
-	private static final String DB_URL = "jdbc:mysql://localhost:3306/jdbctest";
+	
+	public class DatabaseConnection {
+		private static final String DB_URL = "jdbc:mysql://localhost:3306/jdbctest";
 
-	public static Connection getConnection() throws SQLException {
-		return DriverManager.getConnection(DB_URL,"root","1234567890q");
+		public static Connection getConnection() throws SQLException {
+			return DriverManager.getConnection(DB_URL,"root","1234567890q");
+		}
 	}
-}
 
 
 ## lib folder： ##
