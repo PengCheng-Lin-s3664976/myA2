@@ -59,7 +59,8 @@ Where to test the file
 
 
 ## report ##
-1. How did you apply MVC design pattern to build this application?
+How did you apply MVC design pattern to build this application?
+<br/>
 I implemented this mvc by creating different packages:
 <br/>
 The Model：
