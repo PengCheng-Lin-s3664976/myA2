@@ -5,7 +5,9 @@ Pengcheng Lin s3664976
 
 ## make sure： ##
 Make sure you have mysql workbench installed
+<br/>
 src/main/java/SmartBord/model/dao/DatabaseConnection.java ：
+<br/>
 Please make sure there is a "jdbctest" database in the database
 <br/>
 Change the username and password in the code to make sure they belong to your current computer.
